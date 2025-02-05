@@ -14,7 +14,7 @@ def start():
     # path to executable
     # creates a pid file, sets the working directory and calls the jar file
     startService(command="/usr/share/signNativeOsService/bin/systemctl/start_comar.sh",
-                 args="%s" % PIDFILE,
+                 args="",
                  donotify=True)
 
 @synchronized
